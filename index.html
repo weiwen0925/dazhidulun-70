@@ -953,5 +953,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C70P1:END-->
+<!--WY-C70P2:BEGIN-->
+<style id="wy-c70p2-css">
+.c70p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c70p2-fabbox.show{display:block;}
+.c70p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c70p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c70p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c70p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c70p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c70p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c70p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c70p2-modal.open{display:flex;}
+.c70p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c70p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c70p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c70p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c70p2-close:hover{background:#e3d5b8;}
+.c70p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c70p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c70p2-tbl th,.c70p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c70p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c70p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c70p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c70p2-tbl b{color:#8b2500;}
+.c70p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c70p2-note b{color:#8b2500;}
+@media(max-width:900px){.c70p2-fabbox{right:14px;}.c70p2-tbl{font-size:11.5px;}.c70p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c70p2-fabbox" id="c70p2Box"><button class="c70p2-btn" id="c70p2Btn" type="button" aria-label="開啟全景總表"><span class="c70p2-ic">▦</span><span class="c70p2-ls"><span class="c70p2-l1">本品 · 釋問相品49</span><span class="c70p2-l2">諸天問深般若相</span></span></button></div><div class="c70p2-modal" id="c70p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c70p2-card"><button class="c70p2-close" id="c70p2Close" type="button" aria-label="關閉">×</button><h3>卷七十·第二品 釋問相品第四十九 · 全景總表</h3><p class="sub">卷七十・第二品｜二諦解套語言悖論・相不能破相不能知相・法界常住終歸無礙智</p><table class="c70p2-tbl"><caption>一、提問的哲學密碼與二諦解套</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>不定故問</td><td>佛隨機逗教，或說空、或說有、或說果報罪福，說法不定，欲色界天子雖具利智，仍欲問「何者定是般若相」</td></tr><tr><td>二諦圓融</td><td>佛答「空相是深般若相」同時自標「為眾生用世間法故說，非第一義」——說空是以世諦方便施設破執，非以第一義諦建立新實體；第一義離言絕慮不應難，世諦故說不應難</td></tr><tr><td>虛空之喻</td><td>佛以「何等是虛空相」反詰──天子自承此為「不正問」，因虛空無為無起、無相可說；般若如虛空，執其有定相可問，本身已是偏離</td></tr></tbody></table><table class="c70p2-tbl"><caption>二、相不能破相 · 相不能知相</caption><thead><tr><th>論證</th><th>內容</th></tr></thead><tbody><tr><td>同體不相破</td><td>破壞須「異法相違」（如水滅火）；而世間天人阿修羅即是相故，與空相同體，火不自滅火，故一切世間不能破壞般若（盲人蹈寶喻：口言非寶，竟不能令非珍寶）</td></tr><tr><td>假名無定無所破</td><td>諸法如樹，根莖枝葉和合假名為樹，無定相故無所可破；如斧析薪，分分解散，僅是「解散」而非實體之消滅</td></tr><tr><td>雙重遮遣</td><td>「相不能知無相」如刀雖利不能破空（內有智慧、外空無物）；「無相不能知相」如無刀雖有物無可斫（外有所緣、內無定相之刀）；相與所相互相依待、互為因待，是相、是無相、相無相三者皆不可得</td></tr></tbody></table><table class="c70p2-tbl"><caption>三、法界常住與心法總持</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>法界常住·發現非發明</td><td>空相非五眾、非六波羅蜜乃至一切種智所作，無為畢竟空，非有漏非無漏、非世間非出世間；「有佛無佛，相性常住」——真理不依覺者而存在，佛因如實知此相性而名如來</td></tr><tr><td>有礙智到無礙智</td><td>凡夫分別諸法有定相，是為「有礙智」；佛住實相中通達無礙，能於同一空相中說諸法各各別相（惱壞相是色相……了現知者是一切種智相）</td></tr><tr><td>不取不捨·轉名般若</td><td>「得者是知，無比遍知故名得」——所謂「得」是徹底了知一切法之不可得，無所執取、無所捨棄；不取不捨、通達無礙即般若極致，是諸法相今轉名為般若波羅蜜</td></tr></tbody></table><p class="c70p2-note">全品以「何等是深般若相」一問展開，經二諦解套化解「說空即落有相」之語言悖論，再以「同體不相破」「相不能知相」雙重論證，證成空相不可被破、不可被知，終於揭示空相乃法界本然、有佛無佛皆常住，佛只是「發現者」而非「發明者」；故不取不捨、通達無礙，即是般若波羅蜜之究竟心法，是諸法相今轉名為般若波羅蜜。</p></div></div>
+<script id="wy-c70p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c70p2Btn"),BOX=document.getElementById("c70p2Box"),MODAL=document.getElementById("c70p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#fabVideo,.fab-video,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c70p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C70P2:END-->
 </body>
 </html>
